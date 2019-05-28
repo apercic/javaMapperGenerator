@@ -6,12 +6,14 @@ public class CatMapper {
     public CatDto fromViewToDto(CatView view) {
         CatDto dto = new CatDto();
         dto.setName(view.getName());
+        dto.setAge(view.getAge());
         return dto;
     }
 
     public CatView fromDtoToView(CatDto dto) {
         CatView view = new CatView();
         view.setName(dto.getName());
+        view.setAge(dto.getAge());
         return view;
     }
 
