@@ -1,2 +1,2 @@
-# java_mapper_generator
-helper class for work
+# java mapper generator
+Helper class for work - generates class mappers with reflection
